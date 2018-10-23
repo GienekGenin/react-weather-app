@@ -1,0 +1,20 @@
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    & ul {
+        list-style: none;
+        padding: 0;
+    }
+}

@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import postReducer from './postReducer';
+import cityReducer from './cityReducer';
 
 export default combineReducers({
-    posts: postReducer
+    cities: cityReducer
 })
